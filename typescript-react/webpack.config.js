@@ -10,7 +10,7 @@ var config = {
     },
 
     module: {
-        rules: [
+        loaders: [
             {
                 test: /\.tsx?$/,
                 loader: "ts-loader",
